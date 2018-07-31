@@ -4,7 +4,7 @@ default = ""
 }
 
 resource "azurerm_resource_group" "test" {
-  name     = "testrg"
+  name     = "${var.environment}-testrg"
   location = "UK South"
 }
 
