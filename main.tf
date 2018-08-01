@@ -1,7 +1,4 @@
-variable environment {
-type = "string"
-default = ""
-}
+provider "azurerm" {}
 
 resource "azurerm_resource_group" "test" {
   name     = "${var.environment}-testrg"
