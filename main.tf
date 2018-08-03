@@ -1,7 +1,7 @@
 provider "azurerm" {}
 
 resource "azurerm_resource_group" "test" {
-  name     = "${var.environment}-testrg"
+  name     = "${var.environment}-realrg"
   location = "UK South"
 }
 
