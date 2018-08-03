@@ -1,5 +1,5 @@
 terraform {
   backend "atlas" {
-    name           = "neosdev/tfstate"
+    name           = "neosdev/tdfgs"
     }
 }
